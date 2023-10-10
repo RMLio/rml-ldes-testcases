@@ -1,17 +1,16 @@
 prefixes:
   ex: http://example.com/
-  rml-tc: http://w3id.org/rml/ldes/ns/test-case/
+  rml-tc: http://rml.io/ns/test-case/
   test: http://www.w3.org/2006/03/test-description#
   rut: http://rdfunit.aksw.org/ns/core#
   mf: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#
   grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
-  idlab-fn: http://example.com/idlab/function/
 
 mappings:
   testcase:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)
+    s: http://rml.io/test-case/$(RML id)
     po:
       - [a, [earl:TestCase, test:TestCase, rut:TestCase, mf:ManifestEntry]]
       - [dcterms:identifier,  $(RML id)]
@@ -19,27 +18,15 @@ mappings:
       - [[schema:description, dcterms:description, test:purpose], $(purpose)]
       - [test:specificationReference, $(part of spec)~iri]
       - p: [dcterms:hasPart, test:informationResourceInput, rml-tc:rules]
-        o: [http://w3id.org/rml/ldes/test-case/$(RML id)/rules/base, http://w3id.org/rml/ldes/test-case/$(RML id)/rules/change]
+        o: [http://rml.io/test-case/$(RML id)/rules/base~iri, http://rml.io/test-case/$(RML id)/rules/change~iri]
       - p: [dcterms:hasPart, test:expectedResults, mf:result]
-        o: rml-tc:InvalidRulesError~iri
-        condition:
-          function: idlab-fn:equal
-          parameters:
-            - [grel:valueParameter, $(error expected?)]
-            - [grel:valueParameter2, "true"]
-      - p: [dcterms:hasPart, test:expectedResults, mf:result]
-        o: [http://w3id.org/rml/ldes/test-case/$(RML id)/output/base, http://w3id.org/rml/ldes/test-case/$(RML id)/output/change]
-        condition:
-          function: idlab-fn:equal
-          parameters:
-            - [grel:valueParameter, $(error expected?)]
-            - [grel:valueParameter2, "false"]
+        o: [http://rml.io/test-case/$(RML id)/output/base~iri, http://rml.io/test-case/$(RML id)/output/change~iri]
       - p: [dcterms:hasPart, test:informationResourceInput]
-        o: [http://w3id.org/rml/ldes/test-case/$(RML id)/input/base, http://w3id.org/rml/ldes/test-case/$(RML id)/input/change]
+        o: [http://rml.io/test-case/$(RML id)/input/base~iri, http://rml.io/test-case/$(RML id)/input/change~iri]
   base-rules-dataset:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)/rules/base
+    s: http://rml.io/test-case/$(RML id)/rules/base
     po:
       - [a, dcat:Dataset]
       - [dcat:keyword, [rml, rules, mapping]]
@@ -54,7 +41,7 @@ mappings:
   base-rules-distribution:
       sources:
         - [metadata.csv~csv]
-      s: http://w3id.org/rml/ldes/test-case/$(RML id)/rules/base/distribution
+      s: http://rml.io/test-case/$(RML id)/rules/base/distribution
       po:
         - [a, dcat:Distribution]
         - [[schema:name, dcterms:title, rdfs:label], "Base RML rules in Turtle format of test case with id $(RML id)"]
@@ -63,7 +50,7 @@ mappings:
   change-rules-dataset:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)/rules/change
+    s: http://rml.io/test-case/$(RML id)/rules/change
     po:
       - [a, dcat:Dataset]
       - [dcat:keyword, [rml, rules, mapping]]
@@ -78,7 +65,7 @@ mappings:
   change-rules-distribution:
       sources:
         - [metadata.csv~csv]
-      s: http://w3id.org/rml/ldes/test-case/$(RML id)/rules/change/distribution
+      s: http://rml.io/test-case/$(RML id)/rules/change/distribution
       po:
         - [a, dcat:Distribution]
         - [[schema:name, dcterms:title, rdfs:label], "Change RML rules in Turtle format of test case with id $(RML id)"]
@@ -87,12 +74,7 @@ mappings:
   base-output-dataset:
       sources:
         - [metadata.csv~csv]
-      s: http://w3id.org/rml/ldes/test-case/$(RML id)/output/base
-      condition:
-        function: idlab-fn:equal
-        parameters:
-          - [grel:valueParameter, "false"]
-          - [grel:valueParameter2, $(error expected?)]
+      s: http://rml.io/test-case/$(RML id)/output/base
       po:
         - [a, dcat:Dataset]
         - p: dcat:distribution
@@ -106,12 +88,7 @@ mappings:
   base-output-distribution:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)/output/base/distribution
-    condition:
-      function: idlab-fn:equal
-      parameters:
-        - [grel:valueParameter, "false"]
-        - [grel:valueParameter2, $(error expected?)]
+    s: http://rml.io/test-case/$(RML id)/output/base/distribution
     po:
       - [a, dcat:Distribution]
       - [[schema:name, dcterms:title, rdfs:label], "Expected base RDF output of test case with id $(RML id)"]
@@ -120,12 +97,7 @@ mappings:
   change-output-dataset:
       sources:
         - [metadata.csv~csv]
-      s: http://w3id.org/rml/ldes/test-case/$(RML id)/output/change
-      condition:
-        function: idlab-fn:equal
-        parameters:
-          - [grel:valueParameter, "false"]
-          - [grel:valueParameter2, $(error expected?)]
+      s: http://rml.io/test-case/$(RML id)/output/change
       po:
         - [a, dcat:Dataset]
         - p: dcat:distribution
@@ -139,12 +111,7 @@ mappings:
   change-output-distribution:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)/output/change/distribution
-    condition:
-      function: idlab-fn:equal
-      parameters:
-        - [grel:valueParameter, "false"]
-        - [grel:valueParameter2, $(error expected?)]
+    s: http://rml.io/test-case/$(RML id)/output/change/distribution
     po:
       - [a, dcat:Distribution]
       - [[schema:name, dcterms:title, rdfs:label], "Expected change RDF output of test case with id $(RML id)"]
@@ -153,7 +120,7 @@ mappings:
   base-input-dataset:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)/input/base
+    s: http://rml.io/test-case/$(RML id)/input/base
     po:
       - [a, dcat:Dataset]
       - p: dcat:distribution
@@ -167,7 +134,7 @@ mappings:
   base-input-distribution:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)/input/base/distribution
+    s: http://rml.io/test-case/$(RML id)/input/base/distribution
     po:
       - [a, dcat:Distribution]
       - [[schema:name, dcterms:title, rdfs:label], "The base input file of test case with id $(RML id)"]
@@ -176,7 +143,7 @@ mappings:
   change-input-dataset:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)/input/change
+    s: http://rml.io/test-case/$(RML id)/input/change
     po:
       - [a, dcat:Dataset]
       - p: dcat:distribution
@@ -190,7 +157,7 @@ mappings:
   change-input-distribution:
     sources:
       - [metadata.csv~csv]
-    s: http://w3id.org/rml/ldes/test-case/$(RML id)/input/change/distribution
+    s: http://rml.io/test-case/$(RML id)/input/change/distribution
     po:
       - [a, dcat:Distribution]
       - [[schema:name, dcterms:title, rdfs:label], "The change input file of test case with id $(RML id)"]

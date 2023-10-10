@@ -19,16 +19,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest State Explicit No Change"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if no output is produced when the data remains unchanged"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest State Explicit No Change"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest State Explicit No Change"
@@ -182,16 +182,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest State Explicit Addition"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if an addition to the data produces an added entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest State Explicit Addition"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest State Explicit Addition"
@@ -345,16 +345,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest State Explicit Modification"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a modification to the data produces a modified entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest State Explicit Modification"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest State Explicit Modification"
@@ -508,16 +508,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest State Explicit Deletion"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a deletion in the data produces a deleted entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest State Explicit Deletion"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest State Explicit Deletion"
@@ -671,16 +671,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest State Implicit No Change"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if no output is produced when the data remains unchanged"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest State Implicit No Change"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest State Implicit No Change"
@@ -834,16 +834,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest State Implicit Addition"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if an addition to the data produces an added entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest State Implicit Addition"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest State Implicit Addition"
@@ -997,16 +997,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest State Implicit Modification"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a modification to the data produces a modified entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest State Implicit Modification"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest State Implicit Modification"
@@ -1160,16 +1160,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest State Implicit Deletion"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a deletion in the data produces a deleted entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest State Implicit Deletion"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest State Implicit Deletion"
@@ -1323,16 +1323,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest Changes Explicit No Change"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if no output is produced when the data remains unchanged"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest Changes Explicit No Change"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest Changes Explicit No Change"
@@ -1486,16 +1486,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest Changes Explicit Addition"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if an addition to the data produces an added entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest Changes Explicit Addition"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest Changes Explicit Addition"
@@ -1649,16 +1649,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest Changes Explicit Modification"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a modification to the data produces a modified entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest Changes Explicit Modification"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest Changes Explicit Modification"
@@ -1812,16 +1812,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest Changes Explicit Deletion"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a deletion in the data produces a deleted entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest Changes Explicit Deletion"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest Changes Explicit Deletion"
@@ -1975,16 +1975,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest Changes Implicit No Change"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if no output is produced when the data remains unchanged"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest Changes Implicit No Change"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest Changes Implicit No Change"
@@ -2138,16 +2138,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest Changes Implicit Addition"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if an addition to the data produces an added entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest Changes Implicit Addition"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest Changes Implicit Addition"
@@ -2301,16 +2301,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Latest Changes Implicit Modification"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a modification to the data produces a modified entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Latest Changes Implicit Modification"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Latest Changes Implicit Modification"
@@ -2464,16 +2464,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Full History Explicit No Change"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if no output is produced when the data remains unchanged"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Full History Explicit No Change"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Full History Explicit No Change"
@@ -2627,16 +2627,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Full History Explicit Addition"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if an addition to the data produces an added entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Full History Explicit Addition"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Full History Explicit Addition"
@@ -2790,16 +2790,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Full History Explicit Modification"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a modification to the data produces a modified entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Full History Explicit Modification"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Full History Explicit Modification"
@@ -2953,16 +2953,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Full History Explicit Deletion"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a deletion in the data produces a deleted entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Full History Explicit Deletion"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Full History Explicit Deletion"
@@ -3116,16 +3116,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Full History Implicit No Change"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if no output is produced when the data remains unchanged"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Full History Implicit No Change"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Full History Implicit No Change"
@@ -3279,16 +3279,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Full History Implicit Addition"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if an addition to the data produces an added entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Full History Implicit Addition"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Full History Implicit Addition"
@@ -3442,16 +3442,16 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Full History Implicit Modification"
   } ],
+  "http://rml.io/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change"
+  } ],
   "http://schema.org/description" : [ {
     "@value" : "Test if a modification to the data produces a modified entity"
   } ],
   "http://schema.org/name" : [ {
     "@value" : "Full History Implicit Modification"
-  } ],
-  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base"
-  }, {
-    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Full History Implicit Modification"

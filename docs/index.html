@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <title>RML Test Cases</title>
+    <title>RML-LDES Test Cases</title>
     <script
             src='https://www.w3.org/Tools/respec/respec-w3c-common'
             class='remove'></script>
@@ -10,18 +10,24 @@
       var respecConfig = {
         specStatus: "unofficial",
         editors: [{
-          name: "Pieter Heyvaert",
+          name: "Dylan Van Assche",
           company: "Ghent University - IDLab, imec",
-          mailto: "pheyvaer.heyvaert@ugent.be"
+          mailto: "dylan.vanassche@ugent.be"
         }, {
-          name: "Anastasia Dimou",
-          company: "Ghent University - IDLab, imec"
+          name: "Gerald Haesendonck",
+          company: "Ghent University - IDLab, imec",
+          mailto: "gerald.haesendonck@ugent.be"
         }, {
           name: "Ben De Meester",
-          company: "Ghent University - IDLab, imec"
+          company: "Ghent University - IDLab, imec",
+          mailto: "ben.demeester@ugent.be"
+        }, {
+          name: "Pieter Colpaert",
+          company: "Ghent University - IDLab, imec",
+          mailto: "pieter.colpaert@ugent.be"
         }],
-        github: "https://github.com/rmlio/rml-test-cases/",
-        shortName: "rml-test-cases"
+        github: "https://github.com/RMLio/rml-ldes-test-cases/",
+        shortName: "rml-ldes-test-cases"
       };
     </script>
 
@@ -30,7 +36,7 @@
 <body>
 <section id='abstract'>
     <p>
-        This document defines the RML test cases to the determine the RML specification conformance of tools.
+        This document defines the RML-LDES test cases to the determine the RML-LDES specification conformance of tools.
     </p>
 </section>
 <section id='sotd'>
@@ -43,8 +49,8 @@
     <h2>Introduction</h2>
 
     <p>
-        This document defines the RML test cases, consisting of a collection of test case documents (input and expected output).
-        The purpose of the test cases is to determine the conformance of tools that execute RML rules to the RML specification.
+        This document defines the RML-LDES test cases, consisting of a collection of test case documents (input and expected output).
+        The purpose of the test cases is to determine the conformance of tools that execute RML rules to the RML-LDES specification.
     </p>
 </section>
 
@@ -61,10 +67,10 @@
         unique identifier,
         title,
         description,
-        relevant aspect of the RML specification,
+        relevant aspect of the RML-LDES specification,
         data sources (optional),
         expected knowledge graph or error, and
-        RML rules.
+        RML-LDES rules.
     </p>
 
     <p>
@@ -76,10 +82,10 @@
         the <a href="https://www.w3.org/TR/vocab-dcat/">Data Catalog Vocabulary</a>.
         A test case is annotated with the classes <code>earl:TestCase</code>, <code>test:TestCase</code>, and <code>mf:ManifestEntry</code>.
         The identifier, title, description, and
-        the specific aspect of the RML specification that is being tested
+        the specific aspect of the RML-LDES specification that is being tested
         are added as datatype properties.
         The files that are provided as input to the tools are linked to the test cases via <code>test:informationResourceInput</code> and <code>dcterms:hasPart</code>.
-        The file with the RML rules is also linked via <code>rml-tc:rules</code>.
+        The file with the RML-LDES rules is also linked via <code>rml-tc:rules</code>.
         The objects of these properties are of the class <code>dcat:Dataset</code>,
         which in turn link to a <code>dcat:Distribution</code> that includes a link to a file.
         The expected output, whether that is a knowledge graph or an error, is linked via <code>test:expectedResults</code>, <code>mf:result</code>, and <code>dcterms:hasPart</code>.
@@ -93,23 +99,15 @@
 <section id="test-cases">
     <h2>Test cases</h2>
 
-    This section describes the RML test cases.
-    These descriptions are also <a href="https://raw.githubusercontent.com/RMLio/rml-test-cases/master/metadata.nt">available as RDF</a>.
-    The files are available on <a href="https://github.com/RMLio/rml-test-cases">Github</a> in the folder <code>test-cases</code>.
+    This section describes the RML-LDES test cases.
+    These descriptions are also <a href="https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/metadata.nq">available as RDF</a>.
+    The files are available on <a href="https://github.com/RMLio/rml-ldes-test-cases">Github</a> in the folder <code>test-cases</code>.
     Each test case is contained in a single folder, containing three types of files:
 
     <ul>
-        <li>Zero or more files containing the data sources,
-            in the case of JSON, XML, CSV, or
-            containing the SQL statements to create the necessary tables,
-            in the case of MySQL, PostgreSQL, and SQL Server.
-        </li>
-        <li>One file with the RML rules, called <code>mapping.ttl</code>,
-            in the Turtle format.
-        </li>
-        <li>Zero or one file with the expected RDF, called <code>output.nq</code>.
-            No file is provided if an error is expected that must halt the generation of the RDF.
-        </li>
+        <li>A base and change RML-LDES mapping file written in Turtle: <code>base.rml.ttl</code> and <code>change.rml.ttl</code></li>
+        <li>A base and change input file in JSON: <code>base.json</code> and <code>change.json</code></li>
+        <li>A base and change output file in N-Quads: <code>output-base.nq</code> and <code>output-change.nq</code></li>
     </ul>
 
     {% for testcase in testcases %}
@@ -124,10 +122,9 @@
         </p>
         <!--<p><b>Data format:</b> {{ testcase.dataFormat }}</p>-->
 
-
         <p>
-            <b>RML rules</b> (<a target="_blank" href="{{testcase.rules}}">download</a>):
-        <pre class="rules">{{ testcase.rulesStr }}</pre>
+            <b>RML base rules</b> (<a target="_blank" href="{{testcase.rulesBase}}">download</a>):
+        <pre class="rules">{{ testcase.rulesBaseStr }}</pre>
         </p>
         <p><b>Error expected:</b>
             {% if testcase.errorExpected == "true" %}
@@ -135,16 +132,39 @@
             {% else %}
                 No
             {% endif %}</p>
-        <p><b>Expected knowledge graph:
+        <p><b>Expected base knowledge graph:
             {% if testcase.errorExpected == "false" %}
-            (<a target="_blank" href="{{testcase.output}}">download</a>)
+            (<a target="_blank" href="{{testcase.outputBase}}">download</a>)
             {% endif %}
 
         </b>
             {% if testcase.errorExpected == "true" %}
                 None, because an error is expected that stops the generation.
             {% else %}
-                <pre class="output">{{ testcase.outputStr }}</pre>
+                <pre class="output">{{ testcase.outputBaseStr }}</pre>
+            {% endif %}
+        </p>
+
+        <p>
+            <b>RML change rules</b> (<a target="_blank" href="{{testcase.rulesChange}}">download</a>):
+        <pre class="rules">{{ testcase.rulesChangeStr }}</pre>
+        </p>
+        <p><b>Error expected:</b>
+            {% if testcase.errorExpected == "true" %}
+                Yes
+            {% else %}
+                No
+            {% endif %}</p>
+        <p><b>Expected change knowledge graph:
+            {% if testcase.errorExpected == "false" %}
+            (<a target="_blank" href="{{testcase.outputChange}}">download</a>)
+            {% endif %}
+
+        </b>
+            {% if testcase.errorExpected == "true" %}
+                None, because an error is expected that stops the generation.
+            {% else %}
+                <pre class="output">{{ testcase.outputChangeStr }}</pre>
             {% endif %}
         </p>
     </section>

@@ -12,7 +12,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rml: <http://semweb.mmlab.be/ns/rml#> .
-@prefix rml-tc: <http://w3id.org/rml/ldes/ns/test-case/> .
+@prefix rml-tc: <http://rml.io/ns/test-case/> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix rut: <http://rdfunit.aksw.org/ns/core#> .
 @prefix test: <http://www.w3.org/2006/03/test-description#> .
@@ -26,9 +26,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change";
     dc:identifier "RMLLDES0001a";
     dc:title "Latest State Explicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change";
     <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
     <http://schema.org/name> "Latest State Explicit No Change";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change";
     rdfs:label "Latest State Explicit No Change";
     mf:name "Latest State Explicit No Change";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base",
@@ -86,9 +86,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change";
     dc:identifier "RMLLDES0001b";
     dc:title "Latest State Explicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change";
     <http://schema.org/description> "Test if an addition to the data produces an added entity";
     <http://schema.org/name> "Latest State Explicit Addition";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change";
     rdfs:label "Latest State Explicit Addition";
     mf:name "Latest State Explicit Addition";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base",
@@ -146,9 +146,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change";
     dc:identifier "RMLLDES0001c";
     dc:title "Latest State Explicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change";
     <http://schema.org/description> "Test if a modification to the data produces a modified entity";
     <http://schema.org/name> "Latest State Explicit Modification";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change";
     rdfs:label "Latest State Explicit Modification";
     mf:name "Latest State Explicit Modification";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base",
@@ -206,9 +206,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change";
     dc:identifier "RMLLDES0001d";
     dc:title "Latest State Explicit Deletion";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change";
     <http://schema.org/description> "Test if a deletion in the data produces a deleted entity";
     <http://schema.org/name> "Latest State Explicit Deletion";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change";
     rdfs:label "Latest State Explicit Deletion";
     mf:name "Latest State Explicit Deletion";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base",
@@ -266,9 +266,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change";
     dc:identifier "RMLLDES0001e";
     dc:title "Latest State Implicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change";
     <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
     <http://schema.org/name> "Latest State Implicit No Change";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change";
     rdfs:label "Latest State Implicit No Change";
     mf:name "Latest State Implicit No Change";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base",
@@ -326,9 +326,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change";
     dc:identifier "RMLLDES0001f";
     dc:title "Latest State Implicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change";
     <http://schema.org/description> "Test if an addition to the data produces an added entity";
     <http://schema.org/name> "Latest State Implicit Addition";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change";
     rdfs:label "Latest State Implicit Addition";
     mf:name "Latest State Implicit Addition";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base",
@@ -386,9 +386,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change";
     dc:identifier "RMLLDES0001g";
     dc:title "Latest State Implicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change";
     <http://schema.org/description> "Test if a modification to the data produces a modified entity";
     <http://schema.org/name> "Latest State Implicit Modification";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change";
     rdfs:label "Latest State Implicit Modification";
     mf:name "Latest State Implicit Modification";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base",
@@ -446,9 +446,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change";
     dc:identifier "RMLLDES0001h";
     dc:title "Latest State Implicit Deletion";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change";
     <http://schema.org/description> "Test if a deletion in the data produces a deleted entity";
     <http://schema.org/name> "Latest State Implicit Deletion";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change";
     rdfs:label "Latest State Implicit Deletion";
     mf:name "Latest State Implicit Deletion";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base",
@@ -506,9 +506,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change";
     dc:identifier "RMLLDES0002a";
     dc:title "Latest Changes Explicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change";
     <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
     <http://schema.org/name> "Latest Changes Explicit No Change";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change";
     rdfs:label "Latest Changes Explicit No Change";
     mf:name "Latest Changes Explicit No Change";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base",
@@ -566,9 +566,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change";
     dc:identifier "RMLLDES0002b";
     dc:title "Latest Changes Explicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change";
     <http://schema.org/description> "Test if an addition to the data produces an added entity";
     <http://schema.org/name> "Latest Changes Explicit Addition";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change";
     rdfs:label "Latest Changes Explicit Addition";
     mf:name "Latest Changes Explicit Addition";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base",
@@ -626,9 +626,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change";
     dc:identifier "RMLLDES0002c";
     dc:title "Latest Changes Explicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change";
     <http://schema.org/description> "Test if a modification to the data produces a modified entity";
     <http://schema.org/name> "Latest Changes Explicit Modification";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change";
     rdfs:label "Latest Changes Explicit Modification";
     mf:name "Latest Changes Explicit Modification";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base",
@@ -686,9 +686,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change";
     dc:identifier "RMLLDES0002d";
     dc:title "Latest Changes Explicit Deletion";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change";
     <http://schema.org/description> "Test if a deletion in the data produces a deleted entity";
     <http://schema.org/name> "Latest Changes Explicit Deletion";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change";
     rdfs:label "Latest Changes Explicit Deletion";
     mf:name "Latest Changes Explicit Deletion";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base",
@@ -746,9 +746,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change";
     dc:identifier "RMLLDES0002e";
     dc:title "Latest Changes Implicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change";
     <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
     <http://schema.org/name> "Latest Changes Implicit No Change";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change";
     rdfs:label "Latest Changes Implicit No Change";
     mf:name "Latest Changes Implicit No Change";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base",
@@ -806,9 +806,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change";
     dc:identifier "RMLLDES0002f";
     dc:title "Latest Changes Implicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change";
     <http://schema.org/description> "Test if an addition to the data produces an added entity";
     <http://schema.org/name> "Latest Changes Implicit Addition";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change";
     rdfs:label "Latest Changes Implicit Addition";
     mf:name "Latest Changes Implicit Addition";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base",
@@ -866,9 +866,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change";
     dc:identifier "RMLLDES0002g";
     dc:title "Latest Changes Implicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change";
     <http://schema.org/description> "Test if a modification to the data produces a modified entity";
     <http://schema.org/name> "Latest Changes Implicit Modification";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change";
     rdfs:label "Latest Changes Implicit Modification";
     mf:name "Latest Changes Implicit Modification";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base",
@@ -926,9 +926,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change";
     dc:identifier "RMLLDES0003a";
     dc:title "Full History Explicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change";
     <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
     <http://schema.org/name> "Full History Explicit No Change";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change";
     rdfs:label "Full History Explicit No Change";
     mf:name "Full History Explicit No Change";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base",
@@ -986,9 +986,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change";
     dc:identifier "RMLLDES0003b";
     dc:title "Full History Explicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change";
     <http://schema.org/description> "Test if an addition to the data produces an added entity";
     <http://schema.org/name> "Full History Explicit Addition";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change";
     rdfs:label "Full History Explicit Addition";
     mf:name "Full History Explicit Addition";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base",
@@ -1046,9 +1046,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change";
     dc:identifier "RMLLDES0003c";
     dc:title "Full History Explicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change";
     <http://schema.org/description> "Test if a modification to the data produces a modified entity";
     <http://schema.org/name> "Full History Explicit Modification";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change";
     rdfs:label "Full History Explicit Modification";
     mf:name "Full History Explicit Modification";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base",
@@ -1106,9 +1106,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change";
     dc:identifier "RMLLDES0003d";
     dc:title "Full History Explicit Deletion";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change";
     <http://schema.org/description> "Test if a deletion in the data produces a deleted entity";
     <http://schema.org/name> "Full History Explicit Deletion";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change";
     rdfs:label "Full History Explicit Deletion";
     mf:name "Full History Explicit Deletion";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base",
@@ -1166,9 +1166,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change";
     dc:identifier "RMLLDES0003e";
     dc:title "Full History Implicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change";
     <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
     <http://schema.org/name> "Full History Implicit No Change";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change";
     rdfs:label "Full History Implicit No Change";
     mf:name "Full History Implicit No Change";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base",
@@ -1226,9 +1226,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change";
     dc:identifier "RMLLDES0003f";
     dc:title "Full History Implicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change";
     <http://schema.org/description> "Test if an addition to the data produces an added entity";
     <http://schema.org/name> "Full History Implicit Addition";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change";
     rdfs:label "Full History Implicit Addition";
     mf:name "Full History Implicit Addition";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base",
@@ -1286,9 +1286,9 @@
       "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change";
     dc:identifier "RMLLDES0003g";
     dc:title "Full History Implicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change";
     <http://schema.org/description> "Test if a modification to the data produces a modified entity";
     <http://schema.org/name> "Full History Implicit Modification";
-    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change";
     rdfs:label "Full History Implicit Modification";
     mf:name "Full History Implicit Modification";
     test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base",
