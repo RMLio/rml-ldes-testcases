@@ -9,7 +9,7 @@
   "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be>",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@comunica/query-sparql-rdfjs": "~2.4.3",
     "n3": "^1.16.3",
     "q": "^1.5.1",
