@@ -1,0 +1,1341 @@
+@prefix : <http://mapping.example.com/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.com/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix idlab-fn: <http://example.com/idlab/function/> .
+@prefix mf: <http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rml-tc: <http://w3id.org/rml/ldes/ns/test-case/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rut: <http://rdfunit.aksw.org/ns/core#> .
+@prefix test: <http://www.w3.org/2006/03/test-description#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+{
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if no output is produced when the data remains unchanged";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change";
+    dc:identifier "RMLLDES0001a";
+    dc:title "Latest State Explicit No Change";
+    <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
+    <http://schema.org/name> "Latest State Explicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change";
+    rdfs:label "Latest State Explicit No Change";
+    mf:name "Latest State Explicit No Change";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change";
+    test:purpose "Test if no output is produced when the data remains unchanged";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0001a";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0001a";
+    rdfs:label "The base input file of test case with id RMLLDES0001a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001a/base-explicit-latest_state.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0001a";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0001a";
+    rdfs:label "The change input file of test case with id RMLLDES0001a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001a/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0001a";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0001a";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0001a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001a/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0001a";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0001a";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0001a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001a/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if an addition to the data produces an added entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change";
+    dc:identifier "RMLLDES0001b";
+    dc:title "Latest State Explicit Addition";
+    <http://schema.org/description> "Test if an addition to the data produces an added entity";
+    <http://schema.org/name> "Latest State Explicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change";
+    rdfs:label "Latest State Explicit Addition";
+    mf:name "Latest State Explicit Addition";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change";
+    test:purpose "Test if an addition to the data produces an added entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0001b";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0001b";
+    rdfs:label "The base input file of test case with id RMLLDES0001b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001b/base-explicit-latest_state.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0001b";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0001b";
+    rdfs:label "The change input file of test case with id RMLLDES0001b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001b/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0001b";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0001b";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0001b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001b/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0001b";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0001b";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0001b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001b/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a modification to the data produces a modified entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change";
+    dc:identifier "RMLLDES0001c";
+    dc:title "Latest State Explicit Modification";
+    <http://schema.org/description> "Test if a modification to the data produces a modified entity";
+    <http://schema.org/name> "Latest State Explicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change";
+    rdfs:label "Latest State Explicit Modification";
+    mf:name "Latest State Explicit Modification";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change";
+    test:purpose "Test if a modification to the data produces a modified entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0001c";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0001c";
+    rdfs:label "The base input file of test case with id RMLLDES0001c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001c/base-explicit-latest_state.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0001c";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0001c";
+    rdfs:label "The change input file of test case with id RMLLDES0001c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001c/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0001c";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0001c";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0001c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001c/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0001c";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0001c";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0001c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001c/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a deletion in the data produces a deleted entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change";
+    dc:identifier "RMLLDES0001d";
+    dc:title "Latest State Explicit Deletion";
+    <http://schema.org/description> "Test if a deletion in the data produces a deleted entity";
+    <http://schema.org/name> "Latest State Explicit Deletion";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change";
+    rdfs:label "Latest State Explicit Deletion";
+    mf:name "Latest State Explicit Deletion";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change";
+    test:purpose "Test if a deletion in the data produces a deleted entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0001d";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0001d";
+    rdfs:label "The base input file of test case with id RMLLDES0001d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001d/base-explicit-latest_state.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0001d";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0001d";
+    rdfs:label "The change input file of test case with id RMLLDES0001d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001d/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0001d";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0001d";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0001d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001d/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0001d";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0001d";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0001d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001d/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if no output is produced when the data remains unchanged";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change";
+    dc:identifier "RMLLDES0001e";
+    dc:title "Latest State Implicit No Change";
+    <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
+    <http://schema.org/name> "Latest State Implicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change";
+    rdfs:label "Latest State Implicit No Change";
+    mf:name "Latest State Implicit No Change";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change";
+    test:purpose "Test if no output is produced when the data remains unchanged";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0001e";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0001e";
+    rdfs:label "The base input file of test case with id RMLLDES0001e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001e/base-implicit-latest_state.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0001e";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0001e";
+    rdfs:label "The change input file of test case with id RMLLDES0001e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001e/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0001e";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0001e";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0001e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001e/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0001e";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0001e";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0001e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001e/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if an addition to the data produces an added entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change";
+    dc:identifier "RMLLDES0001f";
+    dc:title "Latest State Implicit Addition";
+    <http://schema.org/description> "Test if an addition to the data produces an added entity";
+    <http://schema.org/name> "Latest State Implicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change";
+    rdfs:label "Latest State Implicit Addition";
+    mf:name "Latest State Implicit Addition";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change";
+    test:purpose "Test if an addition to the data produces an added entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0001f";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0001f";
+    rdfs:label "The base input file of test case with id RMLLDES0001f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001f/base-implicit-latest_state.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0001f";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0001f";
+    rdfs:label "The change input file of test case with id RMLLDES0001f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001f/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0001f";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0001f";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0001f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001f/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0001f";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0001f";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0001f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001f/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a modification to the data produces a modified entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change";
+    dc:identifier "RMLLDES0001g";
+    dc:title "Latest State Implicit Modification";
+    <http://schema.org/description> "Test if a modification to the data produces a modified entity";
+    <http://schema.org/name> "Latest State Implicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change";
+    rdfs:label "Latest State Implicit Modification";
+    mf:name "Latest State Implicit Modification";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change";
+    test:purpose "Test if a modification to the data produces a modified entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0001g";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0001g";
+    rdfs:label "The base input file of test case with id RMLLDES0001g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001g/base-implicit-latest_state.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0001g";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0001g";
+    rdfs:label "The change input file of test case with id RMLLDES0001g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001g/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0001g";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0001g";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0001g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001g/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0001g";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0001g";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0001g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001g/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a deletion in the data produces a deleted entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change";
+    dc:identifier "RMLLDES0001h";
+    dc:title "Latest State Implicit Deletion";
+    <http://schema.org/description> "Test if a deletion in the data produces a deleted entity";
+    <http://schema.org/name> "Latest State Implicit Deletion";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change";
+    rdfs:label "Latest State Implicit Deletion";
+    mf:name "Latest State Implicit Deletion";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change";
+    test:purpose "Test if a deletion in the data produces a deleted entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0001h";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0001h";
+    rdfs:label "The base input file of test case with id RMLLDES0001h";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001h/base-implicit-latest_state.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0001h";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0001h";
+    rdfs:label "The change input file of test case with id RMLLDES0001h";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001h/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0001h";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0001h";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0001h";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001h/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0001h";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0001h";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0001h";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001h/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if no output is produced when the data remains unchanged";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change";
+    dc:identifier "RMLLDES0002a";
+    dc:title "Latest Changes Explicit No Change";
+    <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
+    <http://schema.org/name> "Latest Changes Explicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change";
+    rdfs:label "Latest Changes Explicit No Change";
+    mf:name "Latest Changes Explicit No Change";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change";
+    test:purpose "Test if no output is produced when the data remains unchanged";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0002a";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0002a";
+    rdfs:label "The base input file of test case with id RMLLDES0002a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002a/base-explicit-latest_changes.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0002a";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0002a";
+    rdfs:label "The change input file of test case with id RMLLDES0002a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002a/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0002a";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0002a";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0002a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002a/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0002a";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0002a";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0002a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002a/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if an addition to the data produces an added entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change";
+    dc:identifier "RMLLDES0002b";
+    dc:title "Latest Changes Explicit Addition";
+    <http://schema.org/description> "Test if an addition to the data produces an added entity";
+    <http://schema.org/name> "Latest Changes Explicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change";
+    rdfs:label "Latest Changes Explicit Addition";
+    mf:name "Latest Changes Explicit Addition";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change";
+    test:purpose "Test if an addition to the data produces an added entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0002b";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0002b";
+    rdfs:label "The base input file of test case with id RMLLDES0002b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002b/base-explicit-latest_changes.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0002b";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0002b";
+    rdfs:label "The change input file of test case with id RMLLDES0002b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002b/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0002b";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0002b";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0002b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002b/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0002b";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0002b";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0002b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002b/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a modification to the data produces a modified entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change";
+    dc:identifier "RMLLDES0002c";
+    dc:title "Latest Changes Explicit Modification";
+    <http://schema.org/description> "Test if a modification to the data produces a modified entity";
+    <http://schema.org/name> "Latest Changes Explicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change";
+    rdfs:label "Latest Changes Explicit Modification";
+    mf:name "Latest Changes Explicit Modification";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change";
+    test:purpose "Test if a modification to the data produces a modified entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0002c";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0002c";
+    rdfs:label "The base input file of test case with id RMLLDES0002c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002c/base-explicit-latest_changes.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0002c";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0002c";
+    rdfs:label "The change input file of test case with id RMLLDES0002c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002c/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0002c";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0002c";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0002c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002c/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0002c";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0002c";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0002c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002c/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a deletion in the data produces a deleted entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change";
+    dc:identifier "RMLLDES0002d";
+    dc:title "Latest Changes Explicit Deletion";
+    <http://schema.org/description> "Test if a deletion in the data produces a deleted entity";
+    <http://schema.org/name> "Latest Changes Explicit Deletion";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change";
+    rdfs:label "Latest Changes Explicit Deletion";
+    mf:name "Latest Changes Explicit Deletion";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change";
+    test:purpose "Test if a deletion in the data produces a deleted entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0002d";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0002d";
+    rdfs:label "The base input file of test case with id RMLLDES0002d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002d/base-explicit-latest_changes.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0002d";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0002d";
+    rdfs:label "The change input file of test case with id RMLLDES0002d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002d/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0002d";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0002d";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0002d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002d/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0002d";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0002d";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0002d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002d/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if no output is produced when the data remains unchanged";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change";
+    dc:identifier "RMLLDES0002e";
+    dc:title "Latest Changes Implicit No Change";
+    <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
+    <http://schema.org/name> "Latest Changes Implicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change";
+    rdfs:label "Latest Changes Implicit No Change";
+    mf:name "Latest Changes Implicit No Change";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change";
+    test:purpose "Test if no output is produced when the data remains unchanged";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0002e";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0002e";
+    rdfs:label "The base input file of test case with id RMLLDES0002e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002e/base-implicit-latest_changes.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0002e";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0002e";
+    rdfs:label "The change input file of test case with id RMLLDES0002e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002e/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0002e";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0002e";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0002e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002e/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0002e";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0002e";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0002e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002e/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if an addition to the data produces an added entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change";
+    dc:identifier "RMLLDES0002f";
+    dc:title "Latest Changes Implicit Addition";
+    <http://schema.org/description> "Test if an addition to the data produces an added entity";
+    <http://schema.org/name> "Latest Changes Implicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change";
+    rdfs:label "Latest Changes Implicit Addition";
+    mf:name "Latest Changes Implicit Addition";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change";
+    test:purpose "Test if an addition to the data produces an added entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0002f";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0002f";
+    rdfs:label "The base input file of test case with id RMLLDES0002f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002f/base-implicit-latest_changes.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0002f";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0002f";
+    rdfs:label "The change input file of test case with id RMLLDES0002f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002f/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0002f";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0002f";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0002f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002f/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0002f";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0002f";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0002f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002f/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a modification to the data produces a modified entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change";
+    dc:identifier "RMLLDES0002g";
+    dc:title "Latest Changes Implicit Modification";
+    <http://schema.org/description> "Test if a modification to the data produces a modified entity";
+    <http://schema.org/name> "Latest Changes Implicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change";
+    rdfs:label "Latest Changes Implicit Modification";
+    mf:name "Latest Changes Implicit Modification";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change";
+    test:purpose "Test if a modification to the data produces a modified entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0002g";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0002g";
+    rdfs:label "The base input file of test case with id RMLLDES0002g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002g/base-implicit-latest_changes.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0002g";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0002g";
+    rdfs:label "The change input file of test case with id RMLLDES0002g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002g/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0002g";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0002g";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0002g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002g/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0002g";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0002g";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0002g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002g/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if no output is produced when the data remains unchanged";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change";
+    dc:identifier "RMLLDES0003a";
+    dc:title "Full History Explicit No Change";
+    <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
+    <http://schema.org/name> "Full History Explicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change";
+    rdfs:label "Full History Explicit No Change";
+    mf:name "Full History Explicit No Change";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change";
+    test:purpose "Test if no output is produced when the data remains unchanged";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0003a";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0003a";
+    rdfs:label "The base input file of test case with id RMLLDES0003a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003a/base-explicit-full_history.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0003a";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0003a";
+    rdfs:label "The change input file of test case with id RMLLDES0003a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003a/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0003a";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0003a";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0003a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003a/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0003a";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0003a";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0003a";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003a/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if an addition to the data produces an added entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change";
+    dc:identifier "RMLLDES0003b";
+    dc:title "Full History Explicit Addition";
+    <http://schema.org/description> "Test if an addition to the data produces an added entity";
+    <http://schema.org/name> "Full History Explicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change";
+    rdfs:label "Full History Explicit Addition";
+    mf:name "Full History Explicit Addition";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change";
+    test:purpose "Test if an addition to the data produces an added entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0003b";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0003b";
+    rdfs:label "The base input file of test case with id RMLLDES0003b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003b/base-explicit-full_history.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0003b";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0003b";
+    rdfs:label "The change input file of test case with id RMLLDES0003b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003b/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0003b";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0003b";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0003b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003b/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0003b";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0003b";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0003b";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003b/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a modification to the data produces a modified entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change";
+    dc:identifier "RMLLDES0003c";
+    dc:title "Full History Explicit Modification";
+    <http://schema.org/description> "Test if a modification to the data produces a modified entity";
+    <http://schema.org/name> "Full History Explicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change";
+    rdfs:label "Full History Explicit Modification";
+    mf:name "Full History Explicit Modification";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change";
+    test:purpose "Test if a modification to the data produces a modified entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0003c";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0003c";
+    rdfs:label "The base input file of test case with id RMLLDES0003c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003c/base-explicit-full_history.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0003c";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0003c";
+    rdfs:label "The change input file of test case with id RMLLDES0003c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003c/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0003c";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0003c";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0003c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003c/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0003c";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0003c";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0003c";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003c/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a deletion in the data produces a deleted entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change";
+    dc:identifier "RMLLDES0003d";
+    dc:title "Full History Explicit Deletion";
+    <http://schema.org/description> "Test if a deletion in the data produces a deleted entity";
+    <http://schema.org/name> "Full History Explicit Deletion";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change";
+    rdfs:label "Full History Explicit Deletion";
+    mf:name "Full History Explicit Deletion";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change";
+    test:purpose "Test if a deletion in the data produces a deleted entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0003d";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0003d";
+    rdfs:label "The base input file of test case with id RMLLDES0003d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003d/base-explicit-full_history.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0003d";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0003d";
+    rdfs:label "The change input file of test case with id RMLLDES0003d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003d/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0003d";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0003d";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0003d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003d/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0003d";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0003d";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0003d";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003d/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if no output is produced when the data remains unchanged";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change";
+    dc:identifier "RMLLDES0003e";
+    dc:title "Full History Implicit No Change";
+    <http://schema.org/description> "Test if no output is produced when the data remains unchanged";
+    <http://schema.org/name> "Full History Implicit No Change";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change";
+    rdfs:label "Full History Implicit No Change";
+    mf:name "Full History Implicit No Change";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change";
+    test:purpose "Test if no output is produced when the data remains unchanged";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0003e";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0003e";
+    rdfs:label "The base input file of test case with id RMLLDES0003e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003e/base-implicit-full_history.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0003e";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0003e";
+    rdfs:label "The change input file of test case with id RMLLDES0003e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003e/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0003e";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0003e";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0003e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003e/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0003e";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0003e";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0003e";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003e/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if an addition to the data produces an added entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change";
+    dc:identifier "RMLLDES0003f";
+    dc:title "Full History Implicit Addition";
+    <http://schema.org/description> "Test if an addition to the data produces an added entity";
+    <http://schema.org/name> "Full History Implicit Addition";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change";
+    rdfs:label "Full History Implicit Addition";
+    mf:name "Full History Implicit Addition";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change";
+    test:purpose "Test if an addition to the data produces an added entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0003f";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0003f";
+    rdfs:label "The base input file of test case with id RMLLDES0003f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003f/base-implicit-full_history.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0003f";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0003f";
+    rdfs:label "The change input file of test case with id RMLLDES0003f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003f/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0003f";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0003f";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0003f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003f/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0003f";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0003f";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0003f";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003f/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g> a rut:TestCase, mf:ManifestEntry,
+      test:TestCase, <http://www.w3.org/ns/earl#TestCase>;
+    dc:description "Test if a modification to the data produces a modified entity";
+    dc:hasPart "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change";
+    dc:identifier "RMLLDES0003g";
+    dc:title "Full History Implicit Modification";
+    <http://schema.org/description> "Test if a modification to the data produces a modified entity";
+    <http://schema.org/name> "Full History Implicit Modification";
+    rml-tc:rules "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base", "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change";
+    rdfs:label "Full History Implicit Modification";
+    mf:name "Full History Implicit Modification";
+    test:informationResourceInput "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change", "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base",
+      "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change";
+    test:purpose "Test if a modification to the data produces a modified entity";
+    test:specificationReference <https://w3id.org/rml/ldes/> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The base input file of test case with id RMLLDES0003g";
+    <http://schema.org/name> "The base input file of test case with id RMLLDES0003g";
+    rdfs:label "The base input file of test case with id RMLLDES0003g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003g/base-implicit-full_history.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change/distribution> .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "The change input file of test case with id RMLLDES0003g";
+    <http://schema.org/name> "The change input file of test case with id RMLLDES0003g";
+    rdfs:label "The change input file of test case with id RMLLDES0003g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003g/change.json>;
+    <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Base RML rules in Turtle format of test case with id RMLLDES0003g";
+    <http://schema.org/name> "Base RML rules in Turtle format of test case with id RMLLDES0003g";
+    rdfs:label "Base RML rules in Turtle format of test case with id RMLLDES0003g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003g/base.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change> a <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/ns/dcat#distribution> <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change/distribution>;
+    <http://www.w3.org/ns/dcat#keyword> "mapping", "rml", "rules" .
+  
+  <http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change/distribution> a <http://www.w3.org/ns/dcat#Distribution>;
+    dc:title "Change RML rules in Turtle format of test case with id RMLLDES0003g";
+    <http://schema.org/name> "Change RML rules in Turtle format of test case with id RMLLDES0003g";
+    rdfs:label "Change RML rules in Turtle format of test case with id RMLLDES0003g";
+    <http://www.w3.org/ns/dcat#downloadUrl> <https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003g/change.rml.ttl>;
+    <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+}

@@ -1,0 +1,3587 @@
+[ {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0001a"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest State Explicit No Change"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest State Explicit No Change"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest State Explicit No Change"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest State Explicit No Change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001a/base-explicit-latest_state.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001a/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001a/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001a/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001a/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0001b"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest State Explicit Addition"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest State Explicit Addition"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest State Explicit Addition"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest State Explicit Addition"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001b/base-explicit-latest_state.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001b/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001b/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001b/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001b/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0001c"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest State Explicit Modification"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest State Explicit Modification"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest State Explicit Modification"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest State Explicit Modification"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001c/base-explicit-latest_state.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001c/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001c/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001c/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001c/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0001d"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest State Explicit Deletion"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest State Explicit Deletion"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest State Explicit Deletion"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest State Explicit Deletion"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001d/base-explicit-latest_state.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001d/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001d/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001d/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001d/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0001e"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest State Implicit No Change"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest State Implicit No Change"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest State Implicit No Change"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest State Implicit No Change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001e/base-implicit-latest_state.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001e/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001e/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001e/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001e/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0001f"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest State Implicit Addition"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest State Implicit Addition"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest State Implicit Addition"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest State Implicit Addition"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001f/base-implicit-latest_state.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001f/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001f/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001f/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001f/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0001g"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest State Implicit Modification"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest State Implicit Modification"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest State Implicit Modification"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest State Implicit Modification"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001g/base-implicit-latest_state.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001g/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001g/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001g/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001g/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0001h"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest State Implicit Deletion"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest State Implicit Deletion"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest State Implicit Deletion"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest State Implicit Deletion"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001h"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001h"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0001h"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001h/base-implicit-latest_state.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001h"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001h"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0001h"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0001h/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001h"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001h"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0001h"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001h/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0001h/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001h"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001h"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0001h"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0001h/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0002a"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest Changes Explicit No Change"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest Changes Explicit No Change"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest Changes Explicit No Change"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest Changes Explicit No Change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002a/base-explicit-latest_changes.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002a/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002a/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002a/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002a/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0002b"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest Changes Explicit Addition"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest Changes Explicit Addition"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest Changes Explicit Addition"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest Changes Explicit Addition"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002b/base-explicit-latest_changes.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002b/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002b/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002b/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002b/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0002c"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest Changes Explicit Modification"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest Changes Explicit Modification"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest Changes Explicit Modification"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest Changes Explicit Modification"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002c/base-explicit-latest_changes.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002c/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002c/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002c/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002c/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0002d"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest Changes Explicit Deletion"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest Changes Explicit Deletion"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest Changes Explicit Deletion"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest Changes Explicit Deletion"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002d/base-explicit-latest_changes.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002d/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002d/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002d/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002d/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0002e"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest Changes Implicit No Change"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest Changes Implicit No Change"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest Changes Implicit No Change"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest Changes Implicit No Change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002e/base-implicit-latest_changes.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002e/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002e/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002e/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002e/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0002f"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest Changes Implicit Addition"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest Changes Implicit Addition"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest Changes Implicit Addition"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest Changes Implicit Addition"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002f/base-implicit-latest_changes.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002f/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002f/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002f/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002f/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0002g"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Latest Changes Implicit Modification"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Latest Changes Implicit Modification"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Latest Changes Implicit Modification"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Latest Changes Implicit Modification"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0002g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002g/base-implicit-latest_changes.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0002g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0002g/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0002g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002g/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0002g/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0002g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0002g/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0003a"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Full History Explicit No Change"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Full History Explicit No Change"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Full History Explicit No Change"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Full History Explicit No Change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003a/base-explicit-full_history.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003a/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003a/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003a/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003a"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003a"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003a/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0003b"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Full History Explicit Addition"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Full History Explicit Addition"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Full History Explicit Addition"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Full History Explicit Addition"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003b/base-explicit-full_history.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003b/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003b/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003b/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003b"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003b"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003b/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0003c"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Full History Explicit Modification"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Full History Explicit Modification"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Full History Explicit Modification"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Full History Explicit Modification"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003c/base-explicit-full_history.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003c/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003c/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003c/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003c"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003c"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003c/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0003d"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Full History Explicit Deletion"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Full History Explicit Deletion"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Full History Explicit Deletion"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Full History Explicit Deletion"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a deletion in the data produces a deleted entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003d/base-explicit-full_history.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003d/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003d/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003d/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003d"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003d"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003d/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0003e"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Full History Implicit No Change"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Full History Implicit No Change"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Full History Implicit No Change"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Full History Implicit No Change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if no output is produced when the data remains unchanged"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003e/base-implicit-full_history.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003e/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003e/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003e/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003e"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003e"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003e/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0003f"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Full History Implicit Addition"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Full History Implicit Addition"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Full History Implicit Addition"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Full History Implicit Addition"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if an addition to the data produces an added entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003f/base-implicit-full_history.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003f/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003f/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003f/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003f"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003f"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003f/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g",
+  "@type" : [ "http://rdfunit.aksw.org/ns/core#TestCase", "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#ManifestEntry", "http://www.w3.org/2006/03/test-description#TestCase", "http://www.w3.org/ns/earl#TestCase" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://purl.org/dc/terms/hasPart" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "RMLLDES0003g"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Full History Implicit Modification"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Full History Implicit Modification"
+  } ],
+  "http://w3id.org/rml/ldes/ns/test-case/rules" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Full History Implicit Modification"
+  } ],
+  "http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#name" : [ {
+    "@value" : "Full History Implicit Modification"
+  } ],
+  "http://www.w3.org/2006/03/test-description#informationResourceInput" : [ {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base"
+  }, {
+    "@value" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change"
+  } ],
+  "http://www.w3.org/2006/03/test-description#purpose" : [ {
+    "@value" : "Test if a modification to the data produces a modified entity"
+  } ],
+  "http://www.w3.org/2006/03/test-description#specificationReference" : [ {
+    "@id" : "https://w3id.org/rml/ldes/"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The base input file of test case with id RMLLDES0003g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003g/base-implicit-full_history.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change/distribution"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/input/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The change input file of test case with id RMLLDES0003g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-test-cases/master/test-cases/RMLLDES0003g/change.json"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "application/json"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/base/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Base RML rules in Turtle format of test case with id RMLLDES0003g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003g/base.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change",
+  "@type" : [ "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change/distribution"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@value" : "mapping"
+  }, {
+    "@value" : "rml"
+  }, {
+    "@value" : "rules"
+  } ]
+}, {
+  "@id" : "http://w3id.org/rml/ldes/test-case/RMLLDES0003g/rules/change/distribution",
+  "@type" : [ "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003g"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Change RML rules in Turtle format of test case with id RMLLDES0003g"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadUrl" : [ {
+    "@id" : "https://raw.githubusercontent.com/RMLio/rml-ldes-test-cases/master/test-cases/RMLLDES0003g/change.rml.ttl"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/turtle"
+  } ]
+} ]
